@@ -1,0 +1,2459 @@
+{
+  "settings": {
+    "name": "project",
+    "currentPage": "traditional.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 44,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": false,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MON DISTRICT</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-1\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Over view.html#msg-box7-5\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Over view.html#msg-box7-5\">Over view</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"CULTURE.html#header1-b\">Culture</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Head hunters.html#header3-e\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Head hunters.html#header3-e\">Head Hunters</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"traditional.html#header3-j\">Traditional</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AOLING.html#header1-12\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">FESTIVAL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AOLING.html#header1-12\">AOLING MOO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"LAO UNG.html#header1-11\">LAO UNG MOO</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Historical.html#header3-z\" aria-expanded=\"true\">INFORMATION</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Historical.html#header3-z\">Historical Facts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"places.html#header3-v\">Tourism Place</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html#form1-u\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".mbr-section-title": {
+              "font-size": "25px",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-1",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "THE ORIGIN",
+          "text": "<p>The word ‘Konyak’ is derived from ‘Kaonyak which means ‘blackhead’ or ‘human’. The connotation is that the look of human appears black with head black. The Konyak land is situated in the north eastern part of Nagaland. The land is a mountainous region with rich products of natural forest. The climate of the land is temperate. The days are warm but nights are cold. Most of the Konyak villages are situated on the mountain top.&nbsp;</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">There is no written record or script that the scholars can go through to trace the history of the Konyak people. So we have to depend mostly on myths and legends. We believe that our ancestors had come from the place called Longhong, hill of stones. We also believe that our forefathers might have come from South East Asia. The historians say that the Konyak might have come across the Patkai mountain range and reached the Konyak land. They then settled at Chinglong Wangdonghong, the present Chinglong village site near the river Aoying and Yengmun known as Longpheng- Phinyu-Hong. In course of time, they spread themselves in the adjoining areas.</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">The very social system of the Konyak is dependent on the hereditary Kingship or Wangship. They make it a point that every village must have a Wang who will have the authority on the village administration. In the entire district of Mon, there are as many as seven chief Aungs(Wangs). The Villages are (1)Chui (2) Mon (3)Shengha Chingnyu (4) Longwa (5) Shangnyu (6) Jaboka and (7) Tangnyu. In addition to reigning their respective villages, they have to control some satellite villages. Of these satellite villages, 54 villages are in Arunachal Pradesh. It is worth mentioning that the Wangkhao Govt.College is situated in Chui village and the college was named after the Aung Wangkhao Konyak. He is still alive, aged 82.(+)&nbsp;</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">The Konyak society is mostly patriarchal. The entry of women in the re-construction of society has been very recent. In the changing scenerio, the role of women in Konyak tribe was marked. They have engaged themselves in the uplift of the status of women for the first time through the organisation called KNSU in 1986. Till 1992 the numbers of graduates among women was only 2 and by now the number is nearly 60. An Angh can marry more than one woman but only the son of the queen can become the Angh after father’s death. The other wives are concubines and so their children are deprieved of Anghship. &nbsp;</span><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-2",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "MON DISTRICT,NAGALAND",
+              "placeId": "",
+              "state": "loading"
+            }
+          },
+          "text1": "<span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">DISTRICT</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">GOOGLE</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"> MAP<br></span><br><br>",
+          "text2": ""
+        }
+      ]
+    },
+    "Head hunters.html": {
+      "settings": {
+        "title": "Web Page Generator Title",
+        "meta_descr": "Web Page Generator Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-c",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MON DISTRICT</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-1\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Over view.html#msg-box7-5\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Over view.html#msg-box7-5\">Over view</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"CULTURE.html#header1-b\">Culture</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Head hunters.html#header3-e\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Head hunters.html#header3-e\">Head Hunters</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"traditional.html#header3-j\">Traditional</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AOLING.html#header1-12\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">FESTIVAL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AOLING.html#header1-12\">AOLING MOO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"LAO UNG.html#header1-11\">LAO UNG MOO</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Historical.html#header3-z\" aria-expanded=\"true\">INFORMATION</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Historical.html#header3-z\">Historical Facts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"places.html#header3-v\">Tourism Place</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html#form1-u\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-d",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "MON DISTRICT,NAGALAND",
+              "placeId": "",
+              "state": "loading"
+            }
+          },
+          "text1": "<span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">DISTRICT</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">GOOGLE</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"> MAP<br></span><br><br>",
+          "text2": ""
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-e",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Head Hunters",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
+                "caption": "Type caption here"
+              }
+            ],
+            "spacing": 1,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#000000",
+            "filterBgColor": true,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery3-16",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "Over view.html": {
+      "settings": {
+        "title": "Web Page Maker Title",
+        "meta_descr": "Web Page Maker Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-3",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MON DISTRICT</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-1\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Over view.html#msg-box7-5\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Over view.html#msg-box7-5\">Over view</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"CULTURE.html#header1-b\">Culture</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Head hunters.html#header3-e\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Head hunters.html#header3-e\">Head Hunters</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"traditional.html#header3-j\">Traditional</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AOLING.html#header1-12\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">FESTIVAL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AOLING.html#header1-12\">AOLING MOO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"LAO UNG.html#header1-11\">LAO UNG MOO</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Historical.html#header3-z\" aria-expanded=\"true\">INFORMATION</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Historical.html#header3-z\">Historical Facts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"places.html#header3-v\">Tourism Place</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html#form1-u\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-4",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "MON DISTRICT,NAGALAND",
+              "placeId": "",
+              "state": "loading"
+            }
+          },
+          "text1": "<span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">DISTRICT</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">GOOGLE</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"> MAP<br></span><br><br>",
+          "text2": ""
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-5",
+          "_params": {
+            "imageSize": "53",
+            "paddingTop": "4",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
+            "bgColor": "#c1c1c1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "FLY OVER<br>MON &nbsp;DISTRICT",
+          "text": "Full width intro with adjustable height, background image, parallax effect and a video section. Note that paddings are extended here.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_inherit": "testimonials2",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials4",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "22px"
+            }
+          },
+          "testimonial": [
+            {
+              "text": "<p>(1) Head -hunting : This custom of killing enemy and bringing the head was indicative of courage and pride in the past. The belief among our forefathers was that some magical power was there in the human skull. In the past, a heroic reception was accorded to a worrior who entered the village with the captured head of the enemy. The village-folk, men and women used to offer ceremonical reception to the hero. The skull was tied in the log drum and dance and merry-making continued throughout the night. A ceremonical fanfare was customary in the recent past. The young men and women in their respective morungs enjoyed such occasions in festival and merry-making. I quote from Haimendorf in his book The Naked Nagas : “The main importance of taking a head is not the glory of the war but the gain of the magical forces inherent in the skull”. The hang-over from such practice is noticed even now. You will sometimes find a man wearing brass heads round his neck. This practice is now as extinct as the dodo in Mauritius.&nbsp;</p><p><span style=\"font-size: 1.125rem; line-height: 2;\">(2) TATTOOING : This is a kind of permanent dying. The skin of the body was perforated and some designs were drawn on the different parts of the body specially on the face, chin or bosom. The design-making was painful but the men and women in the past accepted it for it was something like a status symbol. But nowadays such practice is not any more found among the School and College children.&nbsp;</span><br></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">(3) The system of Morung : The word ‘Morung’ is Assamese in origin and it means ‘bachelor’s dormitories. According to Mr. Peal “The morung is a survival of the communal house from which private dwellings split off” and the purpose of the dormitory was, according to Mr. Shakespear ‘to prevent incest’. With the attainment of a particular age, of the boys and girls were sent to these institutes and they remained there till adulthood or till marriage. The youngfolk were trained in discipline, war--fare and art of dealing with an emergency. With the changing time, the importance of such institutes is losing ground but they still exist in a lesser extent.&nbsp;</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">The most important festival among the Konyak is AolingMonyu which is celebrated in spring season and the occasion is related to the sowing of seeds. The feastival starts on 1st April and continues till the 6th April. Another festival called LaoLongmo is celebrated in August after the harvest.&nbsp;</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">Christianity entered in this area as late as in 1932. Under the benign influence of Christianity, there came a change in the mindset of the Konyak. Today 95% of the Konyak are Christians. The Konyak are hospitable, laborious and lovers of games and funs. KHALAP or the black tea is their favourite. They are expert in cane-craftsmanship. Other than Nagamese, the lingua-franca among different clans of the Konyak is the Wakching dialect. The present generation, however, has an inclination towards English which is the medium of instruction in School and college. The Konyak are intelligent and the spirit of give and take makes their life smooth, viable and inter-dependent. Here I quote from Haimendorf in order to emphasise the co-operative life of our people “A great house can be built in two or three days, for all clansmen and friends lend a hand, and are paid on completion by a lavish entertainment with much food and rice-beer..the Konyaks are born right -birds and they only begin really to wake up at midnight ..... to him the hours in the girls club are not wasted time and enjoyment is worth more than any material gain.”</span><br></p><p><br></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Abanoub S.",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials4-6",
+          "_params": {
+            "count": "1",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "showImages": false,
+            "showName": false,
+            "showBio": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
+            "bgColor": "#c1c1c1",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false
+          },
+          "title": "The three Features that are very prominent among the Konyak.",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "#f2f2f2",
+              "border-color": "#f2f2f2"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features4",
+          "_anchor": "features4-8",
+          "_params": {
+            "iconsBgColor": "#f2f2f2",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#c1c1c1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 3,
+            "showImages": false,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title1": "Geography",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Mon district is the northernmost district of Nagaland. It is bounded by the state of Arunachal Pradesh to its north, Assam to its west, Myanmar to its east, Longleng district to its south-west and Tuensang district to its south. The town of Mon is its district headquarters.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title2": "ECONOMY",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "In 2006 the Ministry of Panchayati Raj named Mon one of the country's 250 most backward districts (out of a total of 640).[1] It is one of the three districts in Nagaland currently receiving funds from the Backward Regions Grant Fund Programme (BRGF).",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title3": "Demographics",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "According to the 2011 census Mon district has a population of 250,671,[2] roughly equal to the nation of Vanuatu.[3] This gives it a ranking of 582nd in India (out of a total of 640).[2] Mon has a sex ratio of 898 females for every 1000 males,[2] and a literacy rate of 56.6%.[2]",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        }
+      ]
+    },
+    "CULTURE.html": {
+      "settings": {
+        "title": "Site Builder Title",
+        "meta_descr": "Site Builder Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-9",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MON DISTRICT</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-1\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Over view.html#msg-box7-5\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Over view.html#msg-box7-5\">Over view</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"CULTURE.html#header1-b\">Culture</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Head hunters.html#header3-e\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Head hunters.html#header3-e\">Head Hunters</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"traditional.html#header3-j\">Traditional</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AOLING.html#header1-12\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">FESTIVAL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AOLING.html#header1-12\">AOLING MOO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"LAO UNG.html#header1-11\">LAO UNG MOO</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Historical.html#header3-z\" aria-expanded=\"true\">INFORMATION</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Historical.html#header3-z\">Historical Facts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"places.html#header3-v\">Tourism Place</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html#form1-u\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-a",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "MON DISTRICT,NAGALAND",
+              "placeId": "",
+              "state": "loading"
+            }
+          },
+          "text1": "<span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">DISTRICT</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">GOOGLE</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"> MAP<br></span><br><br>",
+          "text2": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "30px",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
+            },
+            ".mbr-section-lead": {
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "header1-b",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "CULTURE",
+          "text": "This district is the home of the Konyak Nagas and it is interesting to see tattooed faces wearing feathers. Konyaks are adept artisans and skilled craftsmen. Here you can find excellent wood carvings, daos (machetes), guns, gunpowder, head brushes, headgear, necklaces, etc. made by these artisans and craftsmen. The most colourful festival of the Konyaks, \"Aoleang Monyu\", which is observed during the first week of April every year, is a spectacle worth watching. Konyaks are the largest tribe among nagas, and speak the local language, Nagamese. They have embraced Christianity and now, Christianity has become the cohesive bond between the Nagas, who, earlier were at constant fight with each other, one who had the maximum skulls of his enemies being considered the mightiest and most powerful. Konyaks still decorate their houses with skulls, hornbill beaks, elephant tusks, horns and wooden statues.<br><br>Konyaks are ruled by hereditary chiefs known as Anghs, and the institution of Anghship is only prevalent among the Konyaks. It is an exciting experience to pay a visit to the Angh's house at Chui, Mon Tangnyu, Sheanghah Chingnyu, Wakching and Yannu. The Angh's house is the largest in the village, with a display of skulls in the front. The Konyaks have tattoos on their face and body. The older males wear large earrings made of boar horn and wear a loincloth only. Some carry a machete called dao or a gun. The older women wear a short piece of cloth wrapped around their waist only. They carry bamboo baskets on their backs or tie children to their backs with cloth. They weave wonderful designs on their handwoven shawls. During festivals, the males wear colorful shawls and headgear decorated with feathers, and dance with daos or spears chanting rhythmically. They also farm land in the hills by clearing the forests by controlled burning called \"Jhum\". They also brew a home brewed liquor made out of rice. Konyaks used to be headhunters before Independence. Some younger Konyaks are giving up their traditional way of life and adopting modern customs.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        }
+      ]
+    },
+    "traditional.html": {
+      "settings": {
+        "title": "Web Site Builder Title",
+        "meta_descr": "Web Site Builder Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-g",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MON DISTRICT</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-1\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Over view.html#msg-box7-5\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Over view.html#msg-box7-5\">Over view</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"CULTURE.html#header1-b\">Culture</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Head hunters.html#header3-e\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Head hunters.html#header3-e\">Head Hunters</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"traditional.html#header3-j\">Traditional</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AOLING.html#header1-12\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">FESTIVAL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AOLING.html#header1-12\">AOLING MOO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"LAO UNG.html#header1-11\">LAO UNG MOO</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Historical.html#header3-z\" aria-expanded=\"true\">INFORMATION</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Historical.html#header3-z\">Historical Facts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"places.html#header3-v\">Tourism Place</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html#form1-u\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-h",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "MON DISTRICT,NAGALAND",
+              "placeId": "",
+              "state": "loading"
+            }
+          },
+          "text1": "<span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">DISTRICT</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">GOOGLE</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"> MAP<br></span><br><br>",
+          "text2": ""
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-j",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Traditional Dress",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
+                "caption": "Type caption here"
+              }
+            ],
+            "spacing": 1,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#000000",
+            "filterBgColor": true,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery3-17",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "AOLING.html": {
+      "settings": {
+        "title": "Web Page Creator Title",
+        "meta_descr": "Web Page Creator Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-k",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MON DISTRICT</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-1\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Over view.html#msg-box7-5\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Over view.html#msg-box7-5\">Over view</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"CULTURE.html#header1-b\">Culture</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Head hunters.html#header3-e\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Head hunters.html#header3-e\">Head Hunters</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"traditional.html#header3-j\">Traditional</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AOLING.html#header1-12\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">FESTIVAL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AOLING.html#header1-12\">AOLING MOO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"LAO UNG.html#header1-11\">LAO UNG MOO</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Historical.html#header3-z\" aria-expanded=\"true\">INFORMATION</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Historical.html#header3-z\">Historical Facts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"places.html#header3-v\">Tourism Place</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html#form1-u\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-l",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "MON DISTRICT,NAGALAND",
+              "placeId": "",
+              "state": "loading"
+            }
+          },
+          "text1": "<span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">DISTRICT</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">GOOGLE</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"> MAP<br></span><br><br>",
+          "text2": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
+            },
+            ".mbr-section-lead": {
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header1-12",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#7c706b",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "AOLING MOO",
+          "text": "The Aoling Festival (sometimes spelt as Aoleng) is a festival celebrated by the Konyak Naga people and held in the first week of April in the Mon district of Nagaland, North East India.The Aoling Festival celebrates the arrival of spring and prays for a good upcoming harvest. The celebrations are held in the first week of April and coincide with the start of the Konyak New Year. However, dates can change as the festival is celebrated in villages across the district with no defined schedule. You have to ask around about where and when events are taking place when you get there.The first 3 days of the Aoling festival are called Hoi Lah Nyih, Yin Mok Pho Nyih and Mok Shek Nyih.These days are spent preparing for the festival by weaving traditional cloths, collecting the animals that will be sacrificed and preparing food and rice beer for the festival.<br>The fourth day, known as Lingnyu Nyih, is the most important day of the Aoling festival in which all the members of the Konyak tribe dress up in their best colorful traditional tribal clothes and jewellery. The fourth day is the most interesting to watch as the whole day is spent dancing, singing and feasting as a community and the indigenous dances that they perform symbolize the tribe's history as headhunters.<br>The final two days of the festival are called Lingha Nyih and Lingshan Nyih. This time is dedicated to spending time with family and cleaning the whole village and also individual houses<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/aoling-festival-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/aoling-festival-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/aoleang-monyu-festival-2000x738-800x295.jpg",
+                "image": "@PROJECT_PATH@/assets/images/aoleang-monyu-festival-2000x738.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/aoling-festival-tribes-2000x1330-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/aoling-festival-tribes-2000x1330.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170930-wa0015-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170930-wa0015-2000x2666.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/log-drum-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/log-drum-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sacrifice-aoling-festival-2000x1176-800x470.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sacrifice-aoling-festival-2000x1176.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/konyak-tribe-music-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/konyak-tribe-music-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ],
+            "spacing": "1",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-13",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "LAO UNG.html": {
+      "settings": {
+        "title": "Web Page Builder Title",
+        "meta_descr": "Web Page Builder Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-m",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MON DISTRICT</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-1\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Over view.html#msg-box7-5\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Over view.html#msg-box7-5\">Over view</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"CULTURE.html#header1-b\">Culture</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Head hunters.html#header3-e\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Head hunters.html#header3-e\">Head Hunters</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"traditional.html#header3-j\">Traditional</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AOLING.html#header1-12\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">FESTIVAL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AOLING.html#header1-12\">AOLING MOO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"LAO UNG.html#header1-11\">LAO UNG MOO</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Historical.html#header3-z\" aria-expanded=\"true\">INFORMATION</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Historical.html#header3-z\">Historical Facts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"places.html#header3-v\">Tourism Place</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html#form1-u\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-n",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "MON DISTRICT,NAGALAND",
+              "placeId": "",
+              "state": "loading"
+            }
+          },
+          "text1": "<span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">DISTRICT</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">GOOGLE</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"> MAP<br></span><br><br>",
+          "text2": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
+            },
+            ".mbr-section-lead": {
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header1-11",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#7c706b",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "LAO UNG MOO",
+          "text": "Recently the Konyak Union has declared September 28 and 29 as the dates for official celebration of ‘Lao-ong Mo’ festival for the Konyak Nagas. Accordingly, the Konyaks, led by its apex organisation, are gearing up for the first official celebration of the festival on September 28 in Mon town.Likewise, its constituents units will be celebrating the same in accordance with the norms.<br>The state government has also declared September 28 as a restricted holiday for Konyaks.Lao-ong Mo, a post-festival of thanksgiving and is celebrated after the completion of all agricultural activities.The post harvest-festival has been traditionally been observed and adhered by every Konyak household after the completion of the harvest and marks the end of all activities, rituals and norms that were in progress/process since the completion of “Aoleang Monyu” celebratio. Literally translated ‘Lao’ is the time/ occasion/event/activity/season of harvest and ‘un ong’ means finishing all the activities and returning home… ‘Mo’ means festival…<br>The celebration is preceded by various rituals and norms that are being observed in the paddy field. Apart from its focus on the harvest, the festival also seeks to unify the souls and minds of every individual.It is the state of time when all its granaries are confidently stored from the harvest and hence a celebration on the bountiful harvest with utmost sense of goodliness and thanksgiving, according to KU(Konyak Union)<br>The festival is also a time when families starts arranging matrimonial alliance of their children or between lovers. Since the harvest is done and the granaries are well-stocked, with confidence they could make arrangements for the weddings since that’s all they needed for the wedding feast.<br>The main objective in celebrating the post harvest festival is to revive and preserve the glorious age old cultural and traditional heritage of the Konyak society.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170925-wa0017-2000x1070-800x428.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170925-wa0017-2000x1070.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170929-wa0001-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170929-wa0001-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170930-wa0005-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170930-wa0005-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kupic-2000x856-800x342.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kupic-2000x856.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p1080931m-2000x1196-800x478.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p1080931(m)-2000x1196.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170925-wa0018-2000x1062-800x424.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170925-wa0018-2000x1062.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170930-wa0007-2000x1507-800x602.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170930-wa0007-2000x1507.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/maxresdefault-2-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/maxresdefault%20(2)-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "1",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-10",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "Historical.html": {
+      "settings": {
+        "title": "Web Generator Title",
+        "meta_descr": "Web Generator Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-o",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MON DISTRICT</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-1\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Over view.html#msg-box7-5\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Over view.html#msg-box7-5\">Over view</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"CULTURE.html#header1-b\">Culture</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Head hunters.html#header3-e\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Head hunters.html#header3-e\">Head Hunters</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"traditional.html#header3-j\">Traditional</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AOLING.html#header1-12\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">FESTIVAL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AOLING.html#header1-12\">AOLING MOO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"LAO UNG.html#header1-11\">LAO UNG MOO</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Historical.html#header3-z\" aria-expanded=\"true\">INFORMATION</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Historical.html#header3-z\">Historical Facts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"places.html#header3-v\">Tourism Place</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html#form1-u\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-p",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "MON DISTRICT,NAGALAND",
+              "placeId": "",
+              "state": "loading"
+            }
+          },
+          "text1": "<span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">DISTRICT</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">GOOGLE</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"> MAP<br></span><br><br>",
+          "text2": ""
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "30px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-z",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Historical facts",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          },
+          "_anchor": "features1-y",
+          "_params": {
+            "columnsColor": "#2e2e2e",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/subexposure-2016-peter-bos-600x337.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Konyak Tea",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Konyak Tea owes its superior quality to the pool of experienced tea-tasters who carefully select the right tea blends. Our tea-tasters come from around the world and our commitment to excellence has made Konyak Tea travel the world. Discerning tea drinkers in India, Japan and Germany have already made Konyak Tea a part of their lives and our expansion plans include winning over hearts, minds and taste buds everywhere.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/hqdefault-1-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Konyak Gun",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Konyak Gun also called as Local Gun by Nagas are first make by Konyak during British Government. Especially during Headhunting period every househall or every Mens carry Gun to defend enemies or for also to hunt animals. This konyak or Local Gun has no Lisence. Its free to carry anywhere we go..",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/kachin-dha-detail-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Konyak Dao",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Even though every Nagas uses Dao which has long handle Konyak  quite different which you can see from the picture above mainly it was made during head Hunting period. According to History Konyak were first to make Dao.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/th25-mithun-aruth25-mithun-arunach-600x374.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Mithun",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mithun is believed to have originated more than 8000 years ago and considered to be descendent from wild Indian gaur (Simoons 1984, Mondal and Pal 1999). Mithuns are found over a large area of Southeast Asia. Beside meat, Mithuns are reared for sacrificial purposes and/or for barter trade. In some folklore, Mithun has been said to be the descendent of the Sun. But according to our forefathers Mithuns were first in Pessao vilage i,e under Mon District. For more Ino Please contact me.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        }
+      ]
+    },
+    "places.html": {
+      "settings": {
+        "title": "Web Site Generator Title",
+        "meta_descr": "Web Site Generator Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-q",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MON DISTRICT</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-1\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Over view.html#msg-box7-5\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Over view.html#msg-box7-5\">Over view</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"CULTURE.html#header1-b\">Culture</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Head hunters.html#header3-e\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Head hunters.html#header3-e\">Head Hunters</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"traditional.html#header3-j\">Traditional</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AOLING.html#header1-12\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">FESTIVAL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AOLING.html#header1-12\">AOLING MOO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"LAO UNG.html#header1-11\">LAO UNG MOO</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Historical.html#header3-z\" aria-expanded=\"true\">INFORMATION</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Historical.html#header3-z\">Historical Facts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"places.html#header3-v\">Tourism Place</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html#form1-u\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-r",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "MON DISTRICT,NAGALAND",
+              "placeId": "",
+              "state": "loading"
+            }
+          },
+          "text1": "<span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">DISTRICT</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">GOOGLE</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"> MAP<br></span><br><br>",
+          "text2": ""
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-v",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Attractive place.",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          },
+          "_anchor": "features1-w",
+          "_params": {
+            "columnsColor": "#2e2e2e",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "4",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mon-district-map-600x766.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "How to Reach Mon",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "The town of Mon is located at a distance of around 300 km from the town of Dimapur and 368 km away from Kohima. Dimapur is the nearest transit point and one can reach the place using taxis easily. The airport at Dimapur is the best choice for those who are planning to travel by air. The airport is connected to places such as Guwahati, Kolkata and Dibrugarh and Imphal. The town of Dimapur has the only major railway station in the region.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bb26a2f178f569f678a44a1b49c1c57513eb9e4782-320x182-f-600x342.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Shangnyu Village",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Ruled by the chief Angh, Shangnyu village is one of the prominent villages in Mon district. There is a wonderful wooden monument measuring 8 feet in height and 12 feet in breadth – believed to be constructed by heavenly angels. Carvings of human beings and other creatures are engraved on this monument. Memorial stones are also found in front of the Angh's palace. History records that good and friendly relationships existed between Shangnyu and Ahom Kings..",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/10653883-697814700303198-625045794567876632-n-600x484.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Chui Village",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "This is a prominent village near Mon, the diastict Headquarters. It is ruled by the Angh of Chui Basti. The Angh's house is the biggest in the village and has a display of skulls of enemies supposedly killed by him and his forebears in the times past. The Konyaks used to be headhunters in the 19th century.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/a-view-from-the-top-of-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Longwa Village",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "One of the biggest villages in Mon district, it is an interesting sight to see. As the village straddles an international boundary line, one half of the Angh's house falls within Indian territory, whereas the other half lies under Myanmar control. However, the whole village is controlled by the Angh and the village Council Chairman. Another interesting feature of this village is that the Angh of the village has 60 wives and his jurisdiction extends up to Myanmar and Arunachal Pradesh..",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        }
+      ]
+    },
+    "contact.html": {
+      "settings": {
+        "title": "Web Page Maker Title",
+        "meta_descr": "Web Page Maker Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-s",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MON DISTRICT</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-1\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Over view.html#msg-box7-5\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Over view.html#msg-box7-5\">Over view</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"CULTURE.html#header1-b\">Culture</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Head hunters.html#header3-e\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Head hunters.html#header3-e\">Head Hunters</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"traditional.html#header3-j\">Traditional</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AOLING.html#header1-12\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">FESTIVAL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AOLING.html#header1-12\">AOLING MOO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"LAO UNG.html#header1-11\">LAO UNG MOO</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Historical.html#header3-z\" aria-expanded=\"true\">INFORMATION</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Historical.html#header3-z\">Historical Facts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"places.html#header3-v\">Tourism Place</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html#form1-u\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-t",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "MON DISTRICT,NAGALAND",
+              "placeId": "",
+              "state": "loading"
+            }
+          },
+          "text1": "<span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">DISTRICT</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">GOOGLE</span><br><span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"> MAP<br></span><br><br>",
+          "text2": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#2b0680"
+            }
+          },
+          "_anchor": "form1-u",
+          "_params": {
+            "labelsColor": "#2b0680",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#c1c1c1",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Please fill the form below.",
+          "form": {
+            "action": "konyakbjun@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SUBMIT</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials2",
+          "testimonial": [
+            {
+              "text": "<p>This website developed for mini project on the Subject</p><p>\"Web Page Design\"</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/img-20160925-121811-120x160.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Designed by Bechung S Konyak<br>Diploma in Computer Engineering.",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials2-15",
+          "_params": {
+            "count": "1",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "showImages": true,
+            "showName": true,
+            "showBio": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showSubtitle": false
+          },
+          "title": "WHAT OUR FANTASTIC USERS SAY",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_inherit": "social-buttons1",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-size": "16px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons3",
+          "_anchor": "social-buttons3-14",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!"
+        }
+      ]
+    }
+  }
+}
